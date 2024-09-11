@@ -1,0 +1,11 @@
+:root {
+  --outfit-font: "Outfit";
+  --young-serif-font: "Young Serif";
+  --standard-font-size: 1rem;
+
+  --white: hsl(0, 0%, 100%);
+  --dark-rose: hsl(332, 51%, 32%);
+  --light-rose: hsl(330, 100%, 98%);
+  --stone-100: hsl(30, 54%, 90%); 
+  --stone-150: hsl(30, 18%, 87%);
+}
