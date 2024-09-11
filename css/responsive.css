@@ -1,0 +1,16 @@
+@media screen and (min-width: 401px) {
+  .container {
+    border-radius: 15px;
+    margin: 120px auto;
+    padding: 40px;
+    width: 740px;
+  }
+  
+  .picture img {
+    border-radius: 10px;
+  }
+
+  .recipe {
+    padding: 0 !important;
+  }
+}

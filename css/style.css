@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap');
 @import url('variables.css');
+@import url('responsive.css');
 
 * {
   box-sizing: border-box;
@@ -77,14 +78,6 @@ li span {
 
 .container {
   background-color: var(--white);
-  border-radius: 15px;
-  margin: 120px auto;
-  padding: 40px;
-  width: 740px;
-}
-
-.picture img {
-  border-radius: 10px;
 }
 
 .quote {
@@ -131,5 +124,14 @@ li span {
 
 .attribution {
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px 0;
+}
+
+.recipe {
+  padding: 0 20px;
+}
+
+.recipe ol,
+.recipe ul {
+  padding-right: 20px;
 }
